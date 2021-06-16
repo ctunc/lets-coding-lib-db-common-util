@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.letscoding.lib",
+    "module": "lets-coding-lib-db-common-util",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "dqzbbv35una25cqzqbam4nmhom"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "2.2.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.9"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "20.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lets-coding-lib-db-common-util-0.0.1.jar",
+          "url": "lets-coding-lib-db-common-util-0.0.1.jar",
+          "size": 1732,
+          "sha512": "e77cfc2111e5b55fa1a68fad12f5859a642f0520ab3a1d5f02787b7b0b3aacb59e5c91686d71d1d3518c57041e19372464fc0a65a394aa501ef3a485679b5985",
+          "sha256": "8a033ad793820707d91fecb8922196ee3bc6f71a8ed4083064fdb28cc3db12b8",
+          "sha1": "3600065f07196fcaac0e0224c2b60a923ceb0dff",
+          "md5": "89345ce636f4303484bcc861f1a8f9fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.2.0.RELEASE"
+          }
+        },
+        {
+          "group": "com.oracle.database.jdbc",
+          "module": "ojdbc8",
+          "version": {
+            "requires": "12.2.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "2.2.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.9"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "20.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lets-coding-lib-db-common-util-0.0.1.jar",
+          "url": "lets-coding-lib-db-common-util-0.0.1.jar",
+          "size": 1732,
+          "sha512": "e77cfc2111e5b55fa1a68fad12f5859a642f0520ab3a1d5f02787b7b0b3aacb59e5c91686d71d1d3518c57041e19372464fc0a65a394aa501ef3a485679b5985",
+          "sha256": "8a033ad793820707d91fecb8922196ee3bc6f71a8ed4083064fdb28cc3db12b8",
+          "sha1": "3600065f07196fcaac0e0224c2b60a923ceb0dff",
+          "md5": "89345ce636f4303484bcc861f1a8f9fb"
+        }
+      ]
+    }
+  ]
+}

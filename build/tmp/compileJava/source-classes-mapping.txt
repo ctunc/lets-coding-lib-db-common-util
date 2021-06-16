@@ -1,0 +1,4 @@
+com/letscoding/repository/common/BaseJpaRepository.java
+ com.letscoding.repository.common.BaseJpaRepository
+com/letscoding/dbmodel/CoreEntity.java
+ com.letscoding.dbmodel.CoreEntity

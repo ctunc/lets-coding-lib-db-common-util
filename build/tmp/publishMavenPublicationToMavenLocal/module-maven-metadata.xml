@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.letscoding.lib</groupId>
+  <artifactId>lets-coding-lib-db-common-util</artifactId>
+  <versioning>
+    <latest>0.0.1</latest>
+    <release>0.0.1</release>
+    <versions>
+      <version>unspecified</version>
+      <version>0.0.1</version>
+    </versions>
+    <lastUpdated>20210616120615</lastUpdated>
+  </versioning>
+</metadata>
